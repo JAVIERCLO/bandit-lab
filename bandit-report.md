@@ -37,3 +37,19 @@ Se listaron los archivos para localizar el archivo que contenía la contraseña 
 
 # Contraseña obtenida:
 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+## Bandit level 3
+**Objetivo**
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados**
+ls
+cd inhere
+ls -la
+file ./...Hiding-From-You
+cat ./...Hiding-From-You
+
+# Explicación
+Se listaron los archivos, se ingresó al directorio con un archivo oculto que contenía la contraseña y se visualizó el contenido del archivo ...Hiding-From-You con la clave.
+
+# Contraseña obtenida:
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
