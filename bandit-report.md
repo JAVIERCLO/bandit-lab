@@ -53,3 +53,26 @@ Se listaron los archivos, se ingresó al directorio con un archivo oculto que co
 
 # Contraseña obtenida:
 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+## Bandit level 4
+**Objetivo**
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados:**
+ls
+file inhere
+cd inhere
+ls -la
+cat ./-file00
+cat ./-file01
+cat ./-file02
+cat ./-file03
+cat ./-file04
+cat ./-file05
+cat ./-file06
+cat ./-file07
+
+# Explicación
+Se listaron los archivos, se comprobó el tipo de archivo de inhere, se ingresó a la carpeta inhere, se visualizó el contenido de los archivos -file0N hasta ver la clave.
+
+# Contraseña obtenida:
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
