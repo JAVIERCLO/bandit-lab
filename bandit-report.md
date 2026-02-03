@@ -92,3 +92,16 @@ Se listaron los archivos, se ingresó al directorio inhere, se hizo una búsqued
 
 # Contraseña obtenida
 HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+
+## Bandit level 6
+**Objetivo:**
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados**
+find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+
+# Explicación
+Se buscó en donde el usuario dueño sea bandit7, el grupo dueño sea bandit6, el archivo pesa 33 bytes y se utilizó 2>/dev/null para que no aparezcan errores por falta de permisos.
+
+# Contraseña obtenida
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
