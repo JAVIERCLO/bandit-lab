@@ -76,3 +76,19 @@ Se listaron los archivos, se comprobó el tipo de archivo de inhere, se ingresó
 
 # Contraseña obtenida:
 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+
+## Bandit level 5
+**Objetivo:**
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados**
+ls
+cd inhere
+find ./ -size 1033c
+cat .file2
+
+# Explicación
+Se listaron los archivos, se ingresó al directorio inhere, se hizo una búsqueda de los archivos que ocupan 1033 bytes, se visualizó el archivo .file2 con la clave.
+
+# Contraseña obtenida
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
