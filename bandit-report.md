@@ -105,3 +105,18 @@ Se buscó en donde el usuario dueño sea bandit7, el grupo dueño sea bandit6, e
 
 # Contraseña obtenida
 morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+
+## Bandit level 7
+**Objetivo**
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados**
+ls
+grep "millionth" data.txt
+
+# Explicación
+Se listaron los archivos en el directorio, se utilizó grep para filtar en donde estaba el texto millionth y se encontró la clave.
+
+# Contraseña obtenida
+dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
