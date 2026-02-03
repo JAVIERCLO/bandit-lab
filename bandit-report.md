@@ -120,3 +120,15 @@ Se listaron los archivos en el directorio, se utilizó grep para filtar en donde
 # Contraseña obtenida
 dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
+## Bandit level 8
+**Objetivo**
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados**
+ls
+sort data.txt | uniq -u
+
+# Explicación
+Se listaron los archivos, se ordenó el contenido de data.txt y se buscó la línea con ocurrencia única para hallar la clave.
+
+# Contraseña obtenida
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
