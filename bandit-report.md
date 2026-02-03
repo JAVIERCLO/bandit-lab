@@ -146,3 +146,16 @@ se listaron los archivos, luego se visualizaron los strings imprimibles del arch
 
 # Contraseña obtenida
 FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+## Bandit level 10
+**Objetivo**
+Encontrar la contraseña del siguiente nivel
+**Comandos utilizados**
+ls
+base64 -d data.txt
+
+# Explicación
+Se listaron los archivos en el directorio, se decodificó la información en base64 del archivo para hallar la clave.
+
+# Contraseña obtenida
+dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
