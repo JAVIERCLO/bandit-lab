@@ -132,3 +132,17 @@ Se listaron los archivos, se ordenó el contenido de data.txt y se buscó la lí
 
 # Contraseña obtenida
 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+
+## Bandit level 9
+**Objetivo**
+Encontrar la contraseña del siguiente nivel.
+**Comandos utilizados**
+ls
+strings data.txt
+
+# Explicación 
+se listaron los archivos, luego se visualizaron los strings imprimibles del archivo y se halló la clave en la línea que tenía muchos = repetidos.
+
+# Contraseña obtenida
+FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
